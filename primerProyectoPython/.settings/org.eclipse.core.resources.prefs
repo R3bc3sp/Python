@@ -3,8 +3,15 @@ encoding//Actividad31/ejercicio1.py=UTF-8
 encoding//Actividad31/ejercicio2.py=UTF-8
 encoding//Actividad31/ejercicio3.py=UTF-8
 encoding//Actividad31/ejercicio4.py=utf-8
+<<<<<<< HEAD
 encoding//actividad32/validacionPassword.py=UTF-8
 encoding//actividad32/validacionUsuarios.py=UTF-8
+=======
+encoding//Actividad32/validacionUsuarios.py=UTF-8
+encoding//Actividad33/calculoInteres.py=UTF-8
+encoding//Actividad33/factorial.py=UTF-8
+encoding//Actividad33/numerosPar.py=UTF-8
+>>>>>>> branch 'master' of https://github.com/ivanzhenlms/Python.git
 encoding//src/input.py=UTF-8
 encoding//src/print.py=UTF-8
 encoding//src/segundoModulo.py=UTF-8
