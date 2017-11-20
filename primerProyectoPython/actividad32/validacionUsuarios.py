@@ -10,4 +10,3 @@ if not (nombre.isalnum()):
     print "El nombre de usuario puede contener solo letras y números"
 else:
     print "El nombre de usuario es válido"
-    
