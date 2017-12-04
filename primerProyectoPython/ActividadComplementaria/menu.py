@@ -33,7 +33,7 @@ def showMenu():
     print "6 - Salir"
     print
     
-    opcion = raw_input("Seleccione una opción: ")
+    opcion = input("Seleccione una opción: ")
     
     try:
         opciones[opcion]()
