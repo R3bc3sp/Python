@@ -1,0 +1,5 @@
+2018-01-15 18:33:24.988000: Iniciando registro de errores
+2018-01-15 18:33:29.989000: Primer mensaje
+2018-01-15 18:33:30.989000: Segundo mensaje mensaje
+2018-01-15 18:33:31.989000: Ultimo mensaje
+2018-01-15 18:33:36.989000: Finalizando registro de errores
