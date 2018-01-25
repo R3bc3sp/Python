@@ -1,4 +1,5 @@
 # ‐*‐ coding: utf‐8 ‐*‐
+from __future__ import print_function
 import math
 
 class Punto(object):
@@ -30,8 +31,17 @@ class Punto(object):
         return distancia
     
     def mostrar_coordenadas(self):
-        print "(", self.x, ",", self.y, ")"
+        print("(", self.x, ", ", self.y, ")", sep='')
+    
+    def __add__(self, punto):
+        newPunto = Punto(self.x + punto.x, self.y + punto.y)
+        return newPunto
+    
+    def __sub__(self, punto):
+        newPunto = Punto(self.x - punto.x, self.y - punto.y)
+        return newPunto
 
 punto = Punto(1, 1)
 
+punto -= Punto(1, 1)
 punto.mostrar_coordenadas()
