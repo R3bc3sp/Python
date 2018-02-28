@@ -14,6 +14,7 @@
 <path>/${PROJECT_DIR_NAME}/ActividadClasesI</path>
 <path>/${PROJECT_DIR_NAME}/ActividadClasesII</path>
 <path>/${PROJECT_DIR_NAME}/ActividadGlobal</path>
+<path>/${PROJECT_DIR_NAME}/ActividadVentana</path>
 </pydev_pathproperty>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python interpreter</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
