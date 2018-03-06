@@ -1,18 +1,23 @@
 from Tkinter import *
+import tkMessageBox
 
 class Ventana(Tk):
     def __init__(self):
         Tk.__init__(self)
         self.title("Viajes de senderismo")
-        self.geometry("400x550")
+        self.geometry("400x600")
         self.marginLeft = 20
         self.marginLeftET = 125
         self.marginTopRB = 75
         self.marginTopCB = self.marginTopRB+150
         self.marginTopET = self.marginTopCB+175
+        self.marginTopBTN = self.marginTopET+150
         self.widthET = 40
         self.textStyle = "Courier 10 bold"
         self.createWidgets()
+    
+    def verInfo(self):
+        tkMessageBox.showinfo("Info", "El valor seleccionado es: ")
     
     def createWidgets(self):
         label_titulo = Label(self, font="Courier 22 bold", text="Viajes de Senderismo").place(x=20, y=20)
@@ -49,6 +54,8 @@ class Ventana(Tk):
         caja_apellidos = Entry(self, textvariable=sApellidos, width=self.widthET).place(x=self.marginLeftET, y=self.marginTopET+30)
         caja_direccion = Entry(self, textvariable=sNombre, width=self.widthET).place(x=self.marginLeftET, y=self.marginTopET+60)
         caja_telefono = Entry(self, textvariable=sApellidos, width=self.widthET).place(x=self.marginLeftET, y=self.marginTopET+90)
+        
+        ver = Button(self, text="Ver", command=self.verInfo).place(x=self.marginLeft, y=self.marginTopBTN)
     
 ventana = Ventana()
 ventana.mainloop()
